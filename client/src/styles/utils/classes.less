@@ -1,0 +1,30 @@
+
+
+
+.hero {
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 12rem;
+    width: 100%;
+    
+    h1 {
+        font-weight: @fw-normal;
+    }
+    &.light {
+        background-image: url(../../../public/images/bg-mobile-light.jpg);
+        color: #light-theme[clr-light-gray];
+
+    }
+    &.dark {
+        background-image: url(../../../public/images/bg-mobile-dark.jpg);
+        color: #dark-theme[clr-dark-grayish];
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1rem;
+}
+
