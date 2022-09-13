@@ -14,22 +14,27 @@ body {
 	font-family: @ff-primary;
 	font-size: @fs-primary;
 	font-weight: @fw-normal;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 12rem;
+	margin: 0 auto;
+	width: 100%;
 }
 
 body[data-theme='dark'] {
 	background-color: #dark-theme[clr-blue-900];
-	.hero {
+	
 		background-image: url(../../../images/bg-mobile-dark.jpg);
 		color: #dark-theme[clr-light-grayish];
-	}
+	
 }
 
 body[data-theme='light'] {
 	background-color: #light-theme[clr-light-gray];
-	.hero {
+	
 		background-image: url(../../../images/bg-mobile-light.jpg);
 		color: #light-theme[clr-light-gray];
-	}
+		
 }
 
 ul {
