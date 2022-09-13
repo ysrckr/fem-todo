@@ -8,7 +8,7 @@ type InputProps = {
 const Input: FC<InputProps> = ({ todo, changeHandler }) => {
 	return (
 		<>
-			<input placeholder="Create a new todo.." value={todo} onChange={changeHandler}/>
+			<input placeholder="Create a new todo.." value={todo} onChange={changeHandler} className='todo-input'/>
 		</>
 	)
 }
