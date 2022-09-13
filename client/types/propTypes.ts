@@ -11,3 +11,9 @@ export type themeProp = {
 export interface IPropsWithChildrenTheme extends IPropsWithChildren {
 	theme: theme
 }
+
+export type header = {
+	theme: string
+	todo: string
+	changeHandler: (e: React.ChangeEvent<HTMLInputElement>) => void
+}
